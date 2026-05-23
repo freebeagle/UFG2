@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.idea/
+
+# Logs
+*.log
+run_logs/
+
+# Large model files (USE, not needed for MiniLM/HF_LOCAL)
+universal_sentence_encoder.tflite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+.tmp_pypdf/
+.tmp_pydeps/

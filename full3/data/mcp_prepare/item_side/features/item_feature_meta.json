@@ -1,0 +1,48 @@
+{
+  "servers_json": "data\\mcp_prepare\\item_side\\raw\\filtered_servers.json",
+  "id_mapping": "data\\mcp_prepare\\item_side\\mapping\\filtered_servers_id_mapping.csv",
+  "output_dir": "data\\mcp_prepare\\item_side\\features",
+  "model_name": "D:\\models\\all-MiniLM-L6-v2",
+  "attribute_sets": [
+    "A",
+    "AB"
+  ],
+  "num_servers_in_json": 5838,
+  "num_mapped_items": 5837,
+  "outputs": {
+    "A": {
+      "attribute_csv": "data\\mcp_prepare\\item_side\\features\\item_attribute_text_A.csv",
+      "feature_npy": "data\\mcp_prepare\\item_side\\features\\item_text_features_A.npy",
+      "feature_shape": [
+        5837,
+        384
+      ],
+      "rows": 5837,
+      "missing_json_ids_without_mapping": [],
+      "num_missing_json_ids_without_mapping": 0,
+      "missing_mapped_iids_without_json": [],
+      "num_missing_mapped_iids_without_json": 0,
+      "duplicate_json_ids_skipped": [
+        7520
+      ],
+      "num_duplicate_json_ids_skipped": 1
+    },
+    "AB": {
+      "attribute_csv": "data\\mcp_prepare\\item_side\\features\\item_attribute_text_AB.csv",
+      "feature_npy": "data\\mcp_prepare\\item_side\\features\\item_text_features_AB.npy",
+      "feature_shape": [
+        5837,
+        384
+      ],
+      "rows": 5837,
+      "missing_json_ids_without_mapping": [],
+      "num_missing_json_ids_without_mapping": 0,
+      "missing_mapped_iids_without_json": [],
+      "num_missing_mapped_iids_without_json": 0,
+      "duplicate_json_ids_skipped": [
+        7520
+      ],
+      "num_duplicate_json_ids_skipped": 1
+    }
+  }
+}
